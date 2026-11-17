@@ -49,6 +49,8 @@ public class calculator {
             default:
                 System.out.println("Invalid operator. Please enter a valid operator.");
         }
+
+        sc.close();
     }
 
 }
